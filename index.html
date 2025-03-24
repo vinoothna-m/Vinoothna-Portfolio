@@ -1,0 +1,315 @@
+
+    <head>
+    <title>Vinoothna's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> 
+    <link rel="icon" href="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\logo"> 
+</head> 
+<!-- 5,21,-->           
+    
+    
+      <body>
+        <!------Header Section------>
+	<header>
+		<a href="#" class="logo">Vin<span>oot</span>hna..</a>
+		<ul class="navlist">
+			<h1><li><a href="#home" >Home</a></li></h1>
+			<h1><li><a href="#about">AboutMe</a></li></h1>
+			<h1><li><a href="#skills">Skills</a></li></h1>
+			<h1><li><a href="#projects">Projects</a></li></h1>
+            <h1><li><a href="#services">Internships</a></li></h1>
+            <h1><li><a href="#certificates">Certifications</a></li></h1>
+			<h1><li><a href="#contact">Contact</a></li></h1>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+    <script>
+        function createParticle() {
+            const particle = document.createElement("div");
+            particle.classList.add("particle");
+            
+            document.body.appendChild(particle);
+            
+            const startX = Math.random() * window.innerWidth;
+            const startY = -10;
+            particle.style.left = `${startX}px`;
+            particle.style.top = `${startY}px`;
+            
+            setTimeout(() => {
+                particle.remove();
+            }, 4000);
+        }
+        
+        setInterval(createParticle, 300);
+    </script>        
+	<section class="home" id="home">
+        
+		<div class="slide">
+                
+				<span class="one">Hello </span><br>
+				<span class="two">I'm</span>
+                <h1>Madithati Vinoothna</h1>
+                <h3>MY <span>Portfolio</span></h3>
+                <p>Welcome to my Official &nbsp; <span >Portfolio</span>&nbsp;  Website</p>
+                <div class="button">
+                    <a href="#about" class="btn">About Me</a>
+                 </div>
+            
+        </div>
+	
+	</section>
+       
+        <!---------about Section --------------->
+	
+	<section class="about" id="about">
+		
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+<br>
+		<h1>	<p ><b>Hello! I'm a passionate Software Engineer with a strong foundation in programming languages as well as web technologies.<br>
+			As a fresher in the tech industry, I am eager to apply my technical expertise to real-world challenges and develop scalable, high-performance applications.   
+	 <br>Technology evolves rapidly, and I am committed to staying updated with the latest industry trends, frameworks, and best practices.<br> My adaptability enables me to embrace new tools and methodologies with ease.
+			 <br> I thrive in team environments where I can contribute innovative ideas, exchange knowledge, and work alongside experienced professionals to deliver high-quality software solutions. 
+			 <br>Let's connect and build something exceptional. </b></p></h1>
+				<a href="Madithati-Vinoothna-Resume.pdf" class="btn" target="_blank">Resume</a></h1>
+		</div>
+	</section>
+
+
+    <!-----------Skills Section-------------->
+	<section class="skills" id="skills">
+        <div class="main-text" style="padding-bottom: 5px;">
+            <h2>Skills <span>Set</span></h2>
+        </div>
+        <div class="skills-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxl-python'></i>
+                </div>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Programming languages-Java,Python,SQL,C</li>
+                    <li>Web Development-HTML,CSS,JavaScript</li>
+                    <li>DBMS-MySQL </li>
+			
+                </ul>
+                
+            </div>
+    
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-desktop'></i>
+                </div>
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>VS Code</li>
+                    <li>MS Office</li>
+                </ul>
+            </div>
+        
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bx-conversation'></i>
+            </div>
+            <h3>Interpersonal skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Active Learning</li>
+                <li>Collaboration mindset</li>
+                <li>Adaptability</li>
+                <li>Creativity and Innovation</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+    
+    <!-----------Project Section--------------->
+    <section class="projects" id="projects">
+       
+        <div class="main-text">
+            <h2><span>Latest </span>Projects</h2>
+        </div>
+
+        <div class="projects-content">
+           
+            <!-- Project 3 -->
+		 <div class="row">
+                <img src="project1.jpg" >
+
+                <div class="layer">
+                    <h5>Automatic Parking System Using Django</h5>
+                    <p>I've developed an exhilarating project.
+                        Click the link below </p>
+                        <a href="https://github.com/vinoothna-m/parking-system" target="_blank"> <i class='bx bx-link-external'></i></a>
+                    
+                </div>
+            </div>
+          
+		 <div class="row">
+                <img src="project02.jpg" >
+
+                <div class="layer">
+                    <h5>Weather Forecasting</h5>
+                    <p>This is a Real time Weather Report that included with the location images(Random)</p>
+                    <a href="https://github.com/vinoothna-m/Weather" target="_blank"> <i class='bx bx-link-external'></i></a>
+                    
+                </div>
+            </div>
+		  <div class="row">
+                <img src="project03.jpg" style="width: 500px; height: 300px;">
+
+                <div class="layer">
+                    <h5> Multi-Modal Hate Speech Detection</h5>
+                    <p>I've developed an Hate Speech Detection project .
+                        Click the link below to access the GitHub repository.</p>
+                    <a href="https://github.com/vinoothna-m/Hate_Speech_Detection_using_machine_learning" target="_blank"> <i class='bx bx-link-external'></i></a>
+                    
+                </div>
+            </div>
+           </div>
+    
+    </section>
+    
+    <!--Intership-->
+
+    <section class="services" id="services" >
+        <div class="contanier">
+            <div class="sec-top">
+               <b> <h2>My <span>Internships</span></h2></b>
+            </div>
+<br>
+<br>
+
+           
+		    <div class="box">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h3>APSHE Data Science</h3>
+                      <p>The certificate of the virtual internship provided by APSCHE .</p>
+
+                          <a href="E:\Certificates\Skill Dzire.pdf" class="btn">Certificate</a>
+                </div>
+                <br>
+                <br>
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Cyber Security Internship</h3>
+                    <p>The certificate of the virtual internship provided by Skill Dzire.</p>
+
+                         <a href="MOGARALA_YASWANTH_Certificate.pdf" class="btn">Certificate</a> 
+                </div>
+		     <br><br>
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>MSME Web Programming Virtual Internship</h3>
+                    <p>The certificate of the virtual internship provided by MSME indicates a duration of 4 weeks.</p>
+
+                         <a href="E:\Certificates\Web Development(Basic).pdf" class="btn">Certificate</a> 
+                </div>
+                <br><br>
+                
+ 
+            </div>
+        </div>
+    </section>
+
+ <!-- Certifications section -->
+
+<section class="certificates" id="certificates">
+   
+    <div class="top">
+        <h2><span>My </span>Certifications</h2>
+    </div>
+    <br>   
+    <br> 
+      <div class="cer-1"  >          
+        <img class="cer1" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\cs50.png" height="315px" width="315px" alt="sql CS50's">
+    &nbsp;  &nbsp; &nbsp; &nbsp; 
+    <img class="cer2" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\sql.png" height="315px" width="315px" alt="sql" >
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+    <img class="cer3" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\data.png" height="315px" width="315x" alt="data" >
+    
+   
+</div>
+<br>
+<br>
+<br>   
+    <br> 
+      <div class="cer-2" style="padding-left: 0px;">          
+    <img class="cer4" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\cloud.png" height="315px" width="315px" alt="cloud" >
+    &nbsp;  &nbsp; &nbsp; &nbsp; 
+    <img class="cer5" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\deep.png" height="315px" width="315px" alt="deep" >
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+    <img class="cer6" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\basic.png" height="315px" width="315px" alt="basic" >
+    
+   
+</div>
+<br>
+<br>
+<div class="cer-3" style="padding-left: 0px;">          
+    <img class="cer7" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\cyber.png" height="315px" width="315px" alt="cyber" >
+    &nbsp;  &nbsp; &nbsp; &nbsp;
+	<img class="cer9" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\ai.png" height="315px" width="315px" alt="ai" >
+   
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+    
+     <img class="cer8" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\encrypt.png" height="315px" width="315px" alt="encrypt" >
+   
+</div>
+<br>
+<br>
+<div class="cer-4" style="padding-left: 0px;">          
+    <img class="cer10" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\web.png" height="315px" width="315px" alt="web" >
+    &nbsp;  &nbsp; &nbsp; &nbsp;
+	<img class="cer11" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\python.png"height="315px" width="315px" alt="python" >
+   
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+    
+     <img class="cer12" src="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\acceptance.png" height="315px" width="315px" alt="accenptance letter" >
+   
+</div>
+
+
+</section>
+<!------------------Contact section------------>
+<center><section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4></h4>
+		<p> Tirupati ,Tirupati District <br>
+		Andhra Pradesh ,India<span> </span></p>
+		<div class="list">
+			
+			<li><a href="mailto:vinoothnamadithati@gmail.com">vinoothnamadithati@gmail.com</a></li>
+            <li><a href="tel:7207998329">+91 7207998329</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<h4>Let's Connect <i class='bx bxs-hand-down'></i></h4>
+           
+			<a href="https://www.linkedin.com/in/vinoothna-madithati" target="_blank"><i class='bx bxl-linkedin'></i></a> 
+			<a href="https://github.com/vinoothna-m" target="_blank"><i class='bx bxl-github'></i></a>
+           
+		
+		</div>
+
+	</div>
+      
+</section>
+
+</section></center>
+
+<!---------End Section---------->
+<section class="end" >
+	<div class="last-text">
+		<p > Designed by © Madithati Vinoothna </p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+  	
+    </body>
+</html>
